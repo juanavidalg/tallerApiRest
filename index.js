@@ -39,7 +39,10 @@ app.get('/', (req,res) => {
 });
 
 //Rutas establecidas para product
-require('./app/routes/product.routes.js')(app);
+require('./app/routes/user.routes.js')(app);
+require('./app/routes/plate.routes.js')(app);
+require('./app/routes/restaurant.routes.js')(app);
+require('./app/routes/car.routes.js')(app);
 
 //Escucha de puerto para atención de solicitudes
 app.listen(port, ()=>{
