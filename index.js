@@ -34,7 +34,7 @@ var port = process.env.PORT || 3000;
 //Definición de rutas
 app.get('/', (req,res) => {
     res.json({
-        "message": "main api rest"
+        "message": "Taller API Rest, Presentado por: Juan Alberto Vidal"
     })
 });
 
